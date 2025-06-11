@@ -1,1 +1,42 @@
+# Build output folders
 /Debug/
+/Release/
+
+# STM32CubeIDE-specific metadata
+/.settings/
+/.metadata/
+/.cproject
+.project
+*.launch
+
+# Core generated code (only if you don't want to commit them)
+# Uncomment the following if you generate code via CubeMX and don't want them in git
+# /Drivers/
+# /Middlewares/
+# /Core/
+
+# Backup files
+*~
+*.bak
+*.swp
+*.tmp
+
+# IDE-specific
+*.ide
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Other generated stuff
+*.o
+*.d
+*.lst
+*.map
+*.elf
+*.bin
+*.hex
+*.axf
+
+# CubeMX-generated files (optional)
+.ioc
